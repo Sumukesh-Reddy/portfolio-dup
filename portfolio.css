@@ -1,0 +1,504 @@
+html {
+    overflow-x: hidden; 
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(47, 46, 46);
+    position: fixed;
+    top: 4px;
+    display: flex;
+    align-items: center;
+   
+}
+
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    
+}
+
+/*name*/
+.name {
+    height: 100%;
+    width: 30px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#Sumukesh {
+    color: red;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid transparent;
+}
+
+#Sumukesh:hover {
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+
+.home {
+    position: fixed;
+    width: 40px; 
+    height: 20px; 
+    padding: 10px;
+    top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 430px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.home:hover {
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.about {
+    position: fixed;
+    width: 40px;
+    height: 20px;
+    padding: 10px;
+    top:4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    right: 340px;
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    }
+
+.about:hover {
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+
+#about {
+    color: red;
+}
+
+.skills {
+    position: fixed;
+    width: 40px;
+    height: 20px;
+    top: 4px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    right: 260px;
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    }
+
+.skills:hover {
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+
+#skill {
+    color: red;
+}
+.education {
+    position: fixed;
+    width: 40px;
+    height: 20px;
+    top: 4px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    right: 160px;
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    }
+
+.education:hover {
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+
+#edu {
+    color: red;
+}
+.contact {
+    position: fixed;
+    width: 40px;
+    height: 20px;
+    top: 4px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    right: 60px;
+    border-radius: 10px;
+    justify-content: center;
+    border: 2px solid transparent;
+    }
+
+.contact:hover {
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+
+#cont {
+    color: red;
+}
+.photo{
+    background-image: url("photo.jpg");
+    position: relative;
+    top: 200px;
+    left: 150px;
+    width: 250px;
+    height: 250px;
+    background-size: contain;  
+    border-radius: 50%;
+    border: 2px solid yellow;
+    box-shadow: 0 0 600px yellow;
+}
+.photo:hover{
+    transform: translateY(-4px);
+    border: 2px solid red;
+    box-shadow: 0 0 600px red;
+}
+
+
+/* in about page*/
+.content{
+    position: fixed;
+    left: 500px;
+}
+#line1{
+    position: fixed;
+    left: 600px;
+    color: white;
+}
+#line1-1{
+    position: fixed;
+    left: 766px;
+    color: red;
+}
+#line2{
+    position: fixed;
+    left: 500px;
+    color: white;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(47, 46, 46);
+}
+.twitter{
+    position: fixed;
+    bottom: 30px;
+    left: 10vw;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.twitter:hover{
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.fa-twitter {
+    text-decoration: none;
+    color: white;
+  }
+.linkedin{
+    position: fixed;
+    bottom: 40px;
+    left: 30vw ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    height: 30px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.linkedin:hover{
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.fa-linkedin {
+    text-decoration: none;
+    color: white;
+  }
+.github{
+    position: fixed;
+    bottom: 40px;
+    right: 35vw ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.github:hover{
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.fa-github {
+    text-decoration: none;
+    color: white;
+  }
+  .fa-twitter {
+    text-decoration: none;
+    color: white;
+  }
+.mail{
+    position: fixed;
+    bottom: 40px;
+    right: 5vw ;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+.mail:hover{
+    border: 2px solid red;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.fa-mail {
+    text-decoration: none;
+    color: white;
+  }
+/*
+
+                                            ABOUT CSS
+
+
+*/
+#abou{
+    color:orange;
+    position: relative;
+    left: 30%;
+}
+#para_about{
+    position: relative;
+    left:35%;
+    color: white;
+    font-size: large;
+}
+#personal{
+    position:relative;
+    left:30%;
+    color: orange;
+}
+
+
+/*
+
+                skills
+
+*/
+.python {
+    position: absolute;
+    top: 10vh; 
+    left: 15vw; 
+    height: 30vh;
+    width: 25vw;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+.java {
+    position: absolute;
+    top: 10vh;
+    left: 60vw; 
+    height: 30vh;
+    width: 25vw;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+.c {
+    position: absolute;
+    top: 50vh; 
+    left: 15vw; 
+    height: 30vh;
+    width: 25vw;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+
+.web {
+    position: absolute;
+    top: 50vh;
+    left: 60vw; 
+    height: 30vh;
+    width: 25vw;
+    border: 2px solid red;
+    border-radius: 10%;
+}
+.python:hover{
+    border: 2px solid orangered;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.java:hover{
+    border: 2px solid orangered;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.c:hover{
+    border: 2px solid orangered;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+.web:hover{
+    border: 2px solid orangered;
+    box-shadow: 2px 1px 30px rgba(255, 255, 0, 0.7); 
+    transform: translateY(-3px);
+}
+#div_skill{
+    position: relative;
+    left: 2vw;
+    color: yellow;
+    font-size: larger;
+    font-family: cursive;
+}
+#hr_skill{
+    color: orange;
+}
+#cont_skill{
+    color: white;
+}
+/*
+
+
+            education
+
+*/
+.school_imag{
+    background-image: url("school.jpg");
+    position: relative;
+    top: 50vh;
+    left: 10vw;
+    width: 8vw;
+    height: 8vw;
+    background-size: contain;  
+    border-radius: 50%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 110px red;
+}
+.school_imag:hover{
+    transform: translateY(-4px);
+    border: 2px solid transparent;
+    box-shadow: 0 0 100px yellow;
+}
+#school_head{
+    position: relative;
+    top:46vh;
+    left: 3vw;
+    color: orangered;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+#table{
+    color: whitesmoke;
+ position: relative;
+ left: 28vw;
+ bottom: 9vh;
+}
+th, td {
+    padding: 20px;
+  }
+  table, th, td {
+    border: 1px solid white;
+    border-radius:1% ;
+  }  
+  table,th,td:hover{
+    border: 1px solid red;
+    box-shadow: 1px 2px 3px black;
+  }
+  .college_image{
+    background-image: url("college.jpg");
+   position: relative;
+   top: -10vh;
+   left: 10vw;
+    width: 8vw;
+    height: 8vw;
+    background-size: contain;  
+    border-radius: 50%;
+    border: 2px solid transparent;
+    box-shadow: 0 0 110px red;
+}
+.college_image:hover{
+    transform: translateY(-4px);
+    border: 2px solid transparent;
+    box-shadow: 0 0 100px yellow;
+}
+ #college_head{
+    position: relative;
+    top: -15vh;
+    left: 3vw;
+    color: orangered;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+ }
+ #college_cont{
+    position: relative;
+    top: -25vh;
+    left: 37vw;
+    color: red;
+    font-style:oblique;
+    font-size: large;
+ }
+ 
+ #college_cont1{
+    position: relative;
+    top: -38vh;
+    left: 50vw;
+    color: white;
+    list-style-type: none;
+    font-size: large;
+ }
+ .weather{
+    position: relative;
+    top: 10vh;
+    left: 6vw;
+    height: 10vh;
+    width: 10vh;
+    background-image: URL("weather.jpg");
+    background-size: contain;
+ }
